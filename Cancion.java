@@ -44,9 +44,7 @@ public class Cancion {
     }
     
     public void escucharCancion(){
-        String texto = " La canción se está reproduciendo"; 
-        System.out.println(texto);
-        return;
+        System.out.println(nombreCancion + "La canción se está reproduciendo");
     }
     
 }
