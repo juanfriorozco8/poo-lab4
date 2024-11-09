@@ -43,8 +43,9 @@ public class Cancion {
         this.genero = genero;
     }
     
-    public void escucharCancion(){
-        System.out.println(nombreCancion + "La canción se está reproduciendo");
+    public String escucharCancion(){
+        String texto = String.format("La canción %s se está reproduciendo...", nombreCancion);
+        return texto;
     }
     
 }

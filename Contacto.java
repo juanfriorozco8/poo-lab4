@@ -33,7 +33,8 @@ public class Contacto {
         this.estado = estado;
     }
 
-    public void mostrarContacto(){
-        System.out.println("Nombre: "+ nombre +" Telefono: "+ telefono);
+    public String mostrarContacto(){
+        String contact = String.format("El nombre es: %s \nsu número de telefono es: %2d", nombre, telefono);
+        return contact;
     }
 }
